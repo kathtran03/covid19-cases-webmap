@@ -1,5 +1,5 @@
 # covid19-cases-webmap
-# COVID-19 in the United States (2020): Spatial Patterns and Case Distribution
+# COVID-19 in the United States (2020)
 
 ## Project Overview
 This project visualizes the spatial distribution of COVID-19 in the United States during 2020 using interactive web maps built with **Mapbox**. The goal is to help users explore how COVID-19 impacted different counties across the country by presenting both **case rates** and **total case counts** through two complementary map designs.
