@@ -4,8 +4,6 @@
 ## Project Overview
 This project visualizes the spatial distribution of COVID-19 in the United States during 2020 using interactive web maps built with **Mapbox**. The goal is to help users explore how COVID-19 impacted different counties across the country by presenting both **case rates** and **total case counts** through two complementary map designs.
 
-By combining choropleth mapping and proportional symbol mapping, this project highlights regional disparities while allowing users to interact with county-level data through hover effects, tooltips, legends, and detailed popups.
-
 ---
 
 ## Interactive Maps
