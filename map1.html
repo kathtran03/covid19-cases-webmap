@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Covid-19 Rates USA Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head> 
+
+<body>
+    <div id="map"></div>
+    <div id='hover-tooltip'></div>
+    <div class='map-overlay' id='features'>
+        <h2>COVID-19 Case Rates U.S. County (2020)</h2>
+        <div id='text-description'>
+            <p>This map offers a detailed view of COVID-19 case rates across U.S. counties in 2020.</p>
+            <p>Click on a county for more info!</p>
+        </div>
+    </div>
+    <div class='map-overlay' id='legend'></div>
+    
+    <div id='info-modal' class='modal'>
+        <div class='modal-content'>
+            <span class='close-modal'>&times;</span>
+            <h2 id='modal-title'>County Details</h2>
+            <div id='modal-details'></div>
+        </div>
+    </div>
+    
+    <script src="js/map1.js"></script>
+
+</body>
+
+</html>
